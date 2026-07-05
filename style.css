@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-img img{
+  width: fit-content;
+  height: 70%;
+}
+
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body{
+  margin: 0px;
+}
+
+h1{
+  text-align:center;
+}
+
+.navbar ul{
+  list-style: none;
+  background-color: oklab(64.453% 0.13274 0.1262);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+  float:left;
+}
+
+
+
